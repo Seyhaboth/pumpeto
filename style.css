@@ -26,6 +26,12 @@ body {
   padding: 5px; /* Add padding to each column */
 }
 
+.mini-checkbox {
+  flex: 0 0 100%; /* Set column to full width */
+  max-width: 100%;
+  padding-left: 30px; /* Add padding to each column */
+}
+
 .custom-label {
   display: flex;
   align-items: center;
