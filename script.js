@@ -14,9 +14,9 @@ function handleSubmit() {
 
     // Example: Perform actions based on specific combinations
     const actions = {
-        "1,27,28": function () {
-            console.log("Action for Option 1, Option 2, and Option 3");
-            alert("Action for Option 1, Option 2, and Option 3");
+        "1,56": function () {
+            console.log("lol");
+            alert("lol");
         },
         "4,5,6": function () {
             console.log("Action for Option 4, Option 5, and Option 6");
