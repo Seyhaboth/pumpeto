@@ -15,10 +15,9 @@ function handleSubmit() {
     // Example: Perform actions based on specific combinations
     const actions = {
         "1,56": function () {
-            console.log("lol");
-            alert("lol");
+            window.location.href = "សម្ព័ន្ធអ៊ីដ្រូសែន១.html";
         },
-        "4,5,6": function () {
+        "1,2,56": function () {
             console.log("Action for Option 4, Option 5, and Option 6");
             alert("Action for Option 4, Option 5, and Option 6");
         },
