@@ -55,3 +55,46 @@ body {
   margin-right: 8px;
   color: white;
 }
+
+/* Container for the dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hidden menu content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Dropdown menu items */
+.dropdown-content input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.dropdown-content label {
+  display: block;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Show the dropdown when clicked */
+.dropdown.show .dropdown-content {
+  display: block;
+  animation: fadeIn 0.3s;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

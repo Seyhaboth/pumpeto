@@ -28,47 +28,162 @@
     ></script>
     <div class="container text-center">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-        <h1>មានសម្មត្តិកម្មអ្វីខ្លះ?</h1>
-      </div>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-        <div class="col">
-          <input
-            type="checkbox"
-            name=""
-            id="ចំនួនសម្ព័ន្ធប៉ិបទីតឬចំណងប៉ិបទីត"
-            value="1"
-            class="custom-checkbox"
-          />
-          <label for="ចំនួនសម្ព័ន្ធប៉ិបទីតឬចំណងប៉ិបទីត" class="custom-label"
-            >ចំនួនសម្ព័ន្ធប៉ិបទីតឬចំណងប៉ិបទីត(L')</label
+        <div class="dropdown">
+          <button
+            style="
+              -webkit-tap-highlight-color: transparent;
+              background-color: #00bd9a;
+              border-radius: 2px;
+              box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px,
+                rgba(0, 0, 0, 0.12) 0px 1px 5px 0px,
+                rgba(0, 0, 0, 0.2) 0px 3px 1px -2px;
+              box-sizing: inherit;
+              color: white;
+              cursor: pointer;
+              display: inline-block;
+              height: 42px;
+              letter-spacing: 0.5px;
+              line-height: 42px;
+              padding: 0px 1rem;
+              pointer-events: all;
+              position: relative;
+              text-decoration-line: none;
+              text-transform: uppercase;
+              vertical-align: middle;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              margin: 5px;
+              border: none;
+              background-color: #0f788d;
+              color: #ffffff;
+              padding: 10px 15px;
+              border-radius: 5px;
+              -moz-border-radius: 10px;
+              -webkit-border-radius: 10px;
+              max-width: 100%;
+            "
+            class="dropdown"
+            onclick="toggleDropdown(this)"
           >
+            ចំនួនសម្ព័ន្ធប៉ិបទីតឬចំណងប៉ិបទីត(L')
+          </button>
+          <div class="dropdown-content" class="col">
+            <div class="col">
+              <img
+                style="max-width: 100%; height: auto"
+                src="./images/ចំនួនសម្ព័ន្ធប៉ិបទីតឬចំណងប៉ិបទីត(L').png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
-        <div class="col">
-          <input
-            type="checkbox"
-            name=""
-            id="ចំនួនម៉ូលេគុលទឹកដែលផ្ដាច់ចេញម៉ូលេគុលទឹក"
-            value="2"
-            class="custom-checkbox"
-          />
-          <label
-            for="ចំនួនម៉ូលេគុលទឹកដែលផ្ដាច់ចេញម៉ូលេគុលទឹក"
-            class="custom-label"
-            >ចំនួនម៉ូលេគុលទឹកដែលផ្ដាច់ចេញ(ម៉ូលេគុលទឹក)</label
+
+        <div class="dropdown">
+          <button
+            style="
+              -webkit-tap-highlight-color: transparent;
+              background-color: #00bd9a;
+              border-radius: 2px;
+              box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px,
+                rgba(0, 0, 0, 0.12) 0px 1px 5px 0px,
+                rgba(0, 0, 0, 0.2) 0px 3px 1px -2px;
+              box-sizing: inherit;
+              color: white;
+              cursor: pointer;
+              display: inline-block;
+              height: 42px;
+              letter-spacing: 0.5px;
+              line-height: 42px;
+              padding: 0px 1rem;
+              pointer-events: all;
+              position: relative;
+              text-decoration-line: none;
+              text-transform: uppercase;
+              vertical-align: middle;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              margin: 5px;
+              border: none;
+              background-color: #0f788d;
+              color: #ffffff;
+              padding: 10px 15px;
+              border-radius: 5px;
+              -moz-border-radius: 10px;
+              -webkit-border-radius: 10px;
+              max-width: 100%;
+            "
+            class="dropdown"
+            onclick="toggleDropdown(this)"
           >
+            ចំនួនម៉ូលេគុលទឹកដែលផ្ដាច់ចេញម៉ូលេគុលទឹក
+          </button>
+          <div class="dropdown-content" class="col">
+            <div class="col">
+              <img
+                style="max-width: 100%; height: auto"
+                src="./images/ចំនួនម៉ូលេគុលទឹកដែលផ្ដាច់ចេញម៉ូលេគុលទឹក.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
-        <div class="col">
-          <input
-            type="checkbox"
-            name=""
-            id="ចំនួនឌីប៉ិបទីត"
-            value="3"
-            class="custom-checkbox"
-          />
-          <label for="ចំនួនឌីប៉ិបទីត" class="custom-label"
-            >ចំនួនឌីប៉ិបទីត</label
+
+        <div class="dropdown">
+          <button
+            style="
+              -webkit-tap-highlight-color: transparent;
+              background-color: #00bd9a;
+              border-radius: 2px;
+              box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px,
+                rgba(0, 0, 0, 0.12) 0px 1px 5px 0px,
+                rgba(0, 0, 0, 0.2) 0px 3px 1px -2px;
+              box-sizing: inherit;
+              color: white;
+              cursor: pointer;
+              display: inline-block;
+              height: 42px;
+              letter-spacing: 0.5px;
+              line-height: 42px;
+              padding: 0px 1rem;
+              pointer-events: all;
+              position: relative;
+              text-decoration-line: none;
+              text-transform: uppercase;
+              vertical-align: middle;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              margin: 5px;
+              border: none;
+              background-color: #0f788d;
+              color: #ffffff;
+              padding: 10px 15px;
+              border-radius: 5px;
+              -moz-border-radius: 10px;
+              -webkit-border-radius: 10px;
+              max-width: 100%;
+            "
+            class="dropdown"
+            onclick="toggleDropdown(this)"
           >
+            ចំនួនឌីប៉ិបទីត
+          </button>
+          <div class="dropdown-content" class="col">
+            <div class="col">
+              <img
+                style="max-width: 100%; height: auto"
+                src="./images/ចំនួនឌីប៉ិបទីត.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
+
         <div class="col">
           <input
             type="checkbox"
@@ -498,10 +613,57 @@
             >ចំនួនដងនៃការស្វ័យដំឡើងទ្វេ</label
           >
         </div>
-
-        <br /><br />
-
-        <button type="button" onclick="handleSubmit()">Submit</button>
+        <div class="dropdown">
+          <button
+            style="
+              -webkit-tap-highlight-color: transparent;
+              background-color: #00bd9a;
+              border-radius: 2px;
+              box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px,
+                rgba(0, 0, 0, 0.12) 0px 1px 5px 0px,
+                rgba(0, 0, 0, 0.2) 0px 3px 1px -2px;
+              box-sizing: inherit;
+              color: white;
+              cursor: pointer;
+              display: inline-block;
+              height: 42px;
+              letter-spacing: 0.5px;
+              line-height: 42px;
+              padding: 0px 1rem;
+              pointer-events: all;
+              position: relative;
+              text-decoration-line: none;
+              text-transform: uppercase;
+              vertical-align: middle;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              margin: 5px;
+              border: none;
+              background-color: #0f788d;
+              color: #ffffff;
+              padding: 10px 15px;
+              border-radius: 5px;
+              -moz-border-radius: 10px;
+              -webkit-border-radius: 10px;
+              max-width: 100%;
+            "
+            class="dropdown"
+            onclick="toggleDropdown()"
+          >
+            ចំនួនដងនៃការស្វ័យដំឡើងទ្វេ
+          </button>
+          <div class="dropdown-content" class="col">
+            <div class="col">
+              <img
+                style="max-width: 100%; height: auto"
+                src="./images/"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
